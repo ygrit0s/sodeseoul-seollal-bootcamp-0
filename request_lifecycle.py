@@ -6,7 +6,7 @@ from http.client import HTTPConnection, HTTPSConnection
 
 
 def demonstrate_request_lifecycle():
-    url = input("Enter the URL :) (e.g., https://www.example.com): ").strip()
+    url = input("Enter the URL (e.g., https://www.example.com): ").strip()
     if not url.startswith("http://") and not url.startswith("https://"):
         print("Please enter a valid URL starting with 'http://' or 'https://'")
         return
